@@ -135,6 +135,10 @@ a { color: var(--accent); text-decoration: none; }
 .sprig .sprig-petal-rose { fill: #d99aa6; opacity: 0.85; }
 .sprig .sprig-petal-peach { fill: #e3c08a; opacity: 0.85; }
 .sprig .sprig-center { fill: #c98f3e; opacity: 0.9; }
+.sprig .sprig-petal-lavender { fill: #c3b2dd; opacity: 0.85; }
+.sprig .sprig-petal-butter { fill: #e8d68a; opacity: 0.85; }
+.sprig .sprig-center-b { fill: #d97b5f; opacity: 0.9; }
+.sprig .grass-stem { stroke: #47663d; stroke-width: 1.6; fill: none; opacity: 0.6; }
 
 .name-wrap { position: relative; display: inline-block; }
 
