@@ -4,8 +4,8 @@
   --text: #1a1a1a;
   --text-muted: #6b6b6b;
   --border: #e6e6e2;
-  --accent: #2b6cb0;
-  --accent-soft: #eaf1fa;
+  --accent: #5b6b4f;
+  --accent-soft: #edf0e4;
   --radius: 12px;
   --max-width: 880px;
 }
@@ -17,8 +17,8 @@
     --text: #f0f0f0;
     --text-muted: #9a9aa2;
     --border: #2a2a33;
-    --accent: #6ea8e5;
-    --accent-soft: #1e2a3a;
+    --accent: #94aa80;
+    --accent-soft: #262f1f;
   }
 }
 
@@ -175,6 +175,32 @@ a { color: var(--accent); text-decoration: none; }
   color: var(--text-muted);
   font-size: 0.9rem;
 }
+
+.transcript-grid .card-tag { display: block; margin-bottom: 14px; }
+
+.course-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.course-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.9rem;
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+}
+
+.course-list li:first-child { border-top: none; padding-top: 0; }
+
+.course-list li span:first-child { color: var(--text); }
+
+.grade { font-weight: 700; color: var(--accent); flex: none; }
 
 .achv-group { margin-bottom: 40px; }
 
