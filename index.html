@@ -173,6 +173,35 @@
     <div class="achv-group">
       <h3 class="achv-title">📊 학점 · 성적</h3>
       <p class="gpa-summary">전체 평점 <strong>4.08</strong></p>
+
+      <div class="gpa-chart">
+        <svg viewBox="0 0 700 210" preserveAspectRatio="xMidYMid meet" role="img" aria-label="학기별 평점 추이 그래프">
+          <line x1="10" y1="175" x2="690" y2="175" class="chart-axis" />
+          <polyline points="30,121.7 190,41.7 350,73.7 510,68.3 670,49.7" class="chart-line" />
+          <g class="chart-points">
+            <circle cx="30" cy="121.7" r="5"></circle>
+            <text x="30" y="107.7" class="chart-value">3.9</text>
+            <text x="30" y="195" class="chart-label">2-1</text>
+
+            <circle cx="190" cy="41.7" r="5"></circle>
+            <text x="190" y="27.7" class="chart-value">4.2</text>
+            <text x="190" y="195" class="chart-label">2-2</text>
+
+            <circle cx="350" cy="73.7" r="5"></circle>
+            <text x="350" y="59.7" class="chart-value">4.08</text>
+            <text x="350" y="195" class="chart-label">3-1</text>
+
+            <circle cx="510" cy="68.3" r="5"></circle>
+            <text x="510" y="54.3" class="chart-value">4.1</text>
+            <text x="510" y="195" class="chart-label">3-2</text>
+
+            <circle cx="670" cy="49.7" r="5"></circle>
+            <text x="670" y="35.7" class="chart-value">4.17</text>
+            <text x="670" y="195" class="chart-label">4-1</text>
+          </g>
+        </svg>
+      </div>
+
       <div class="card-grid transcript-grid">
         <div class="card">
           <span class="card-tag">2학년 1학기 · 평점 3.9</span>
