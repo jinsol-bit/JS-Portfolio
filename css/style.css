@@ -191,7 +191,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .course-list li span:first-child { color: var(--text); }
 
-.grade { font-weight: 700; color: var(--accent); flex: none; }
+.grade { font-weight: 700; color: var(--accent); flex: none; min-width: 32px; text-align: left; }
 
 .achv-group { margin-bottom: 40px; }
 
