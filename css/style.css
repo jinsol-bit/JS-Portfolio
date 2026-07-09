@@ -167,21 +167,11 @@ a { color: var(--accent); text-decoration: none; }
 
 .card-link { display: inline-block; margin-top: 12px; font-size: 0.88rem; font-weight: 600; }
 
-.transcript-grid .card-tag { display: block; margin-bottom: 14px; }
+.transcript-grid .card-tag { display: block; margin-bottom: 14px; font-weight: 700; }
 
-.course-group { margin-bottom: 16px; }
+.course-group { margin-bottom: 28px; }
 
 .course-group:last-child { margin-bottom: 0; }
-
-.course-group-label {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--accent);
-  margin-bottom: 6px;
-}
 
 .course-list {
   list-style: none;
