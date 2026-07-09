@@ -206,9 +206,41 @@ a { color: var(--accent); text-decoration: none; }
 
 .achv-title { font-size: 1.1rem; margin: 0 0 8px; }
 
-.gpa-summary { color: var(--text-muted); font-size: 0.92rem; margin: 0 0 16px; }
+.gpa-stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+}
 
-.gpa-summary strong { color: var(--accent); font-size: 1.1rem; }
+.gpa-stat {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 22px;
+  min-width: 140px;
+  flex: 0 1 auto;
+}
+
+.gpa-stat-label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.gpa-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.gpa-stat-value small {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 2px;
+}
 
 .gpa-chart {
   background: var(--bg);
