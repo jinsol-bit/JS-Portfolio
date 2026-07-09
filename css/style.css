@@ -79,9 +79,35 @@ a { color: var(--accent); text-decoration: none; }
 
 /* Hero */
 .hero {
+  position: relative;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 96px 24px 72px;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-deco {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 200px;
+  height: 170px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-deco .leaf-fill { fill: var(--accent); opacity: 0.16; }
+.hero-deco .leaf-fill-soft { fill: var(--accent); opacity: 0.09; }
+.hero-deco .leaf-stroke { stroke: var(--accent); stroke-width: 1.5; opacity: 0.22; fill: none; }
+.hero-deco .blade { stroke: var(--accent); stroke-width: 2; opacity: 0.18; fill: none; stroke-linecap: round; }
+
+@media (max-width: 640px) {
+  .hero-deco { width: 130px; height: 110px; }
 }
 
 .eyebrow {
@@ -296,6 +322,19 @@ a { color: var(--accent); text-decoration: none; }
   color: var(--text-muted);
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
+}
+
+.footer-sprout {
+  width: 28px;
+  height: 21px;
+  display: block;
+  margin: 0 auto 8px;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  fill: var(--accent);
+  fill-opacity: 0.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* Responsive */
