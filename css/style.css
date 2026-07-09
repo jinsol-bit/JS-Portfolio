@@ -6,7 +6,7 @@
   --border: #e6e6e2;
   --accent: #5b6b4f;
   --accent-soft: #edf0e4;
-  --accent-vivid: #4f9d5c;
+  --accent-vivid: #2f7d4f;
   --radius: 12px;
   --max-width: 880px;
 }
@@ -20,7 +20,7 @@
     --border: #2a2a33;
     --accent: #94aa80;
     --accent-soft: #262f1f;
-    --accent-vivid: #7ed88f;
+    --accent-vivid: #6fc48f;
   }
 }
 
@@ -120,24 +120,20 @@ a { color: var(--accent); text-decoration: none; }
 
 .accent { color: var(--accent-vivid); }
 
-.name-wrap { position: relative; display: inline-block; }
-
-.name-flower {
-  position: absolute;
-  top: -16px;
-  right: -20px;
-  width: 26px;
-  height: 26px;
+/* Watercolor-style sprig accent */
+.sprig {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
 }
 
-.name-flower path { fill: var(--accent-vivid); opacity: 0.9; }
-.name-flower circle { fill: #f3c9d1; }
-.name-flower .name-flower-center { fill: #f6d17a; }
-
-@media (prefers-color-scheme: dark) {
-  .name-flower circle { fill: #d99aa6; }
-  .name-flower .name-flower-center { fill: #e0b85f; }
-}
+.sprig .sprig-leaf-a { fill: #7c9470; opacity: 0.85; }
+.sprig .sprig-leaf-b { fill: #4f6b45; opacity: 0.85; }
+.sprig .sprig-petal-rose { fill: #d99aa6; opacity: 0.85; }
+.sprig .sprig-petal-peach { fill: #e3c08a; opacity: 0.85; }
+.sprig .sprig-center { fill: #c98f3e; opacity: 0.9; }
 
 .hero-sub { font-size: 1.1rem; color: var(--text-muted); max-width: 560px; margin: 0 0 32px; }
 
