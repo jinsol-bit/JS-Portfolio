@@ -195,6 +195,20 @@ a { color: var(--accent); text-decoration: none; }
 
 .transcript-grid .card-tag { display: block; margin-bottom: 14px; }
 
+.course-group { margin-bottom: 16px; }
+
+.course-group:last-child { margin-bottom: 0; }
+
+.course-group-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
 .course-list {
   list-style: none;
   margin: 0;
