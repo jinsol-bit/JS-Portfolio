@@ -204,7 +204,11 @@ a { color: var(--accent); text-decoration: none; }
 
 .achv-group { margin-bottom: 40px; }
 
-.achv-title { font-size: 1.1rem; margin: 0 0 16px; }
+.achv-title { font-size: 1.1rem; margin: 0 0 8px; }
+
+.gpa-summary { color: var(--text-muted); font-size: 0.92rem; margin: 0 0 16px; }
+
+.gpa-summary strong { color: var(--accent); font-size: 1.1rem; }
 
 /* Timeline */
 .timeline { list-style: none; padding: 0; margin: 0; }
