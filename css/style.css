@@ -263,6 +263,21 @@ a { color: var(--accent); text-decoration: none; }
   justify-content: start;
 }
 
+.course-columns .course-group:first-of-type .course-list {
+  grid-template-columns: 150px 160px;
+}
+
+.course-columns .course-group:last-of-type .course-list {
+  grid-template-columns: 115px 100px;
+}
+
+@media (max-width: 560px) {
+  .course-columns .course-group:first-of-type .course-list,
+  .course-columns .course-group:last-of-type .course-list {
+    grid-template-columns: auto;
+  }
+}
+
 .course-list li {
   display: flex;
   justify-content: space-between;
@@ -271,10 +286,6 @@ a { color: var(--accent); text-decoration: none; }
   font-size: 0.85rem;
   padding: 0;
   white-space: nowrap;
-}
-
-@media (max-width: 560px) {
-  .course-list { grid-template-columns: auto; }
 }
 
 .course-list li span:first-child { color: var(--text); }
