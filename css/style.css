@@ -203,26 +203,10 @@ a { color: var(--accent); text-decoration: none; }
   gap: 20px;
 }
 
-/* Goal stack */
-.goal-stack {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .card-stack {
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.goal-arrow {
-  align-self: center;
-  font-size: 1.4rem;
-  color: var(--accent);
-  padding: 6px 0;
 }
 
 .card {
@@ -338,8 +322,6 @@ a { color: var(--accent); text-decoration: none; }
 
 /* Timeline */
 .timeline { list-style: none; padding: 0; margin: 0; }
-
-.goal-stack + .timeline { margin-top: 48px; }
 
 .timeline-item {
   display: flex;
