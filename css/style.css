@@ -265,8 +265,9 @@ a { color: var(--accent); text-decoration: none; }
 
 .course-list li {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 4px;
+  gap: 12px;
   font-size: 0.85rem;
   padding: 0;
   white-space: nowrap;
