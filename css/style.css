@@ -226,7 +226,22 @@ a { color: var(--accent); text-decoration: none; }
   gap: 16px;
 }
 
-.transcript-grid .card-tag { display: block; margin-bottom: 14px; font-weight: 700; }
+.transcript-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.transcript-grid .card-tag { font-weight: 700; }
+
+.card-gpa {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
 
 .course-group { margin-bottom: 20px; }
 
