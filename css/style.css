@@ -177,9 +177,9 @@ a { color: var(--accent); text-decoration: none; }
   padding: 72px 24px;
 }
 
-.section-alt { background: var(--bg-alt); max-width: 100%; }
+.section-alt { background: var(--bg-alt); max-width: 100%; padding: 0; }
 
-.section-alt > * { max-width: var(--max-width); margin-left: auto; margin-right: auto; }
+.section-inner { max-width: var(--max-width); margin: 0 auto; padding: 72px 24px; }
 
 .section-label {
   text-transform: uppercase;
