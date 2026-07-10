@@ -127,9 +127,9 @@ a { color: var(--accent); text-decoration: none; }
 .sprig .sprig-petal-rose { fill: #d99aa6; opacity: 0.85; }
 .sprig .sprig-petal-peach { fill: #e3c08a; opacity: 0.85; }
 .sprig .sprig-center { fill: #c98f3e; opacity: 0.9; }
-.sprig .sprig-petal-lavender { fill: #c3b2dd; opacity: 0.85; }
-.sprig .sprig-petal-butter { fill: #e8d68a; opacity: 0.85; }
-.sprig .sprig-center-b { fill: #d97b5f; opacity: 0.9; }
+.sprig .sprig-petal-lavender { fill: #bd5744; opacity: 0.85; }
+.sprig .sprig-petal-butter { fill: #d98872; opacity: 0.85; }
+.sprig .sprig-center-b { fill: #e0a940; opacity: 0.9; }
 .sprig .grass-stem { stroke: #47663d; stroke-width: 1.6; fill: none; opacity: 0.6; }
 
 .name-wrap { position: relative; display: inline-block; }
@@ -219,6 +219,12 @@ a { color: var(--accent); text-decoration: none; }
 .card p { color: var(--text-muted); font-size: 0.92rem; margin: 0; }
 
 .card-link { display: inline-block; margin-top: 12px; font-size: 0.88rem; font-weight: 600; }
+
+.transcript-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 .transcript-grid .card-tag { display: block; margin-bottom: 14px; font-weight: 700; }
 
