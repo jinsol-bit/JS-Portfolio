@@ -264,6 +264,16 @@ a { color: var(--accent); text-decoration: none; }
 
 .achv-note { color: var(--text-muted); font-size: 0.85rem; margin: 0 0 16px; }
 
+.poster-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 10px 0 4px;
+  cursor: zoom-in;
+}
+
 .growth-list {
   margin: 12px 0 0;
   padding-left: 18px;
