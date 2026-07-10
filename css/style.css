@@ -274,7 +274,7 @@ a { color: var(--accent); text-decoration: none; }
 @media (max-width: 560px) {
   .course-columns .course-group:first-of-type .course-list,
   .course-columns .course-group:last-of-type .course-list {
-    grid-template-columns: auto;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
