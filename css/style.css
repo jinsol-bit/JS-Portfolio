@@ -365,6 +365,13 @@ a { color: var(--accent); text-decoration: none; }
   gap: 4px;
 }
 
+.quote-highlight {
+  text-decoration-line: underline;
+  text-decoration-color: #dcecd3;
+  text-decoration-thickness: 5px;
+  text-underline-offset: -2px;
+}
+
 .gpa-summary {
   color: var(--text-muted);
   font-size: 0.92rem;
