@@ -232,6 +232,26 @@ a { color: var(--accent); text-decoration: none; }
 
 .course-group:last-child { margin-bottom: 0; }
 
+.course-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.course-columns .course-group { margin-bottom: 0; }
+
+.course-divider {
+  align-self: stretch;
+  width: 1px;
+  background: var(--border);
+}
+
+@media (max-width: 560px) {
+  .course-columns { grid-template-columns: 1fr; gap: 16px; }
+  .course-divider { display: none; }
+}
+
 .course-list {
   list-style: none;
   margin: 0;
