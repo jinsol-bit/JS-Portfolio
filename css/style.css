@@ -234,7 +234,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .course-columns {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 1px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 2.2fr) 1px minmax(0, 1fr);
   gap: 24px;
   align-items: start;
 }
@@ -258,17 +258,15 @@ a { color: var(--accent); text-decoration: none; }
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px 16px;
 }
 
 .course-list li {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
   font-size: 0.85rem;
-  padding: 5px 10px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
+  padding: 0;
   white-space: nowrap;
 }
 
