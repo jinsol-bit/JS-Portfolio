@@ -343,6 +343,14 @@ a { color: var(--accent); text-decoration: none; }
   margin: 0;
 }
 
+.card-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: none;
+}
+
 @media (max-width: 480px) {
   .poster-img--fixed { width: 140px; }
 }
