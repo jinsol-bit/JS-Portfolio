@@ -139,6 +139,8 @@ a { color: var(--accent); text-decoration: none; }
   height: 20px;
   margin-left: 2px;
   vertical-align: baseline;
+  position: relative;
+  top: 11px;
 }
 
 .hero-sub { font-size: 1.1rem; color: var(--text-muted); max-width: 560px; margin: 0 0 32px; }
@@ -220,7 +222,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .transcript-grid .card-tag { display: block; margin-bottom: 14px; font-weight: 700; }
 
-.course-group { margin-bottom: 28px; }
+.course-group { margin-bottom: 20px; }
 
 .course-group:last-child { margin-bottom: 0; }
 
@@ -229,24 +231,24 @@ a { color: var(--accent); text-decoration: none; }
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
 .course-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 0.9rem;
-  padding: 6px 0;
-  border-top: 1px solid var(--border);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  white-space: nowrap;
 }
-
-.course-list li:first-child { border-top: none; padding-top: 0; }
 
 .course-list li span:first-child { color: var(--text); }
 
-.grade { font-weight: 700; color: var(--accent); flex: none; min-width: 32px; text-align: left; }
+.grade { font-weight: 700; color: var(--accent); }
 
 .achv-group { margin-bottom: 40px; }
 
