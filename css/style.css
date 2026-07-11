@@ -85,18 +85,18 @@ a { color: var(--accent); text-decoration: none; }
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(ellipse 480px 340px at 0% 0%, rgba(255, 253, 240, 1), transparent 66%),
-    radial-gradient(ellipse 400px 320px at 10% 8%, rgba(196, 219, 168, 0.5), transparent 68%),
-    radial-gradient(ellipse 320px 280px at -6% 22%, rgba(152, 182, 122, 0.35), transparent 62%);
+    radial-gradient(ellipse 620px 440px at 0% 0%, rgba(255, 253, 240, 1), transparent 66%),
+    radial-gradient(ellipse 520px 410px at 10% 8%, rgba(196, 219, 168, 0.5), transparent 68%),
+    radial-gradient(ellipse 420px 360px at -6% 22%, rgba(152, 182, 122, 0.35), transparent 62%);
   background-repeat: no-repeat;
 }
 
 @media (prefers-color-scheme: dark) {
   .hero {
     background:
-      radial-gradient(ellipse 480px 340px at 0% 0%, rgba(255, 248, 205, 0.2), transparent 66%),
-      radial-gradient(ellipse 400px 320px at 10% 8%, rgba(166, 196, 136, 0.26), transparent 68%),
-      radial-gradient(ellipse 320px 280px at -6% 22%, rgba(166, 196, 136, 0.18), transparent 62%);
+      radial-gradient(ellipse 620px 440px at 0% 0%, rgba(255, 248, 205, 0.2), transparent 66%),
+      radial-gradient(ellipse 520px 410px at 10% 8%, rgba(166, 196, 136, 0.26), transparent 68%),
+      radial-gradient(ellipse 420px 360px at -6% 22%, rgba(166, 196, 136, 0.18), transparent 62%);
   }
 }
 
